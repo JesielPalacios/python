@@ -16,5 +16,5 @@ for i in range(total_number_of_months):
     expenses_of_the_year += expenses
 
 print()
-print('The average of your expenses in the year was: $ ' +
+print('The average in those months was: $ ' +
       str(expenses_of_the_year/total_number_of_months))
