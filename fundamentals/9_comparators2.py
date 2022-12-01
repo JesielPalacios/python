@@ -28,6 +28,7 @@
 # Operadores de comparacion-----------------------------------
 # son operaores de logica y regresan booleanos
 
+import os
 a = 10
 b = 3
 
@@ -42,3 +43,6 @@ print(f"menor o igual: {a <= b}")
 # compara si las dos variables son verdaderas
 print(f"and: {a > b and a == b}")
 print(f"or: {a > b or a == b}")  # compara si una de las variables es verdadera
+
+# Para inciar limpiando la salida por consola, colocar al inicio:
+os.system('clear')
